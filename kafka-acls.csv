@@ -1,0 +1,10 @@
+KafkaPrincipal,ResourceType,PatternType,ResourceName,Operation,PermissionType,Host
+User:broker-kafka,Group,LITERAL,*,All,Allow,*
+User:broker-kafka,Topic,LITERAL,*,All,Allow,*
+User:broker-kafka,Cluster,LITERAL,*,All,Allow,*
+User:broker-kafka,TransactionalId,LITERAL,*,All,Allow,*
+User:producer-kafka,Topic,LITERAL,*,All,Allow,*
+User:producer-kafka,Cluster,LITERAL,*,All,Allow,*
+User:producer-kafka,TransactionalId,LITERAL,*,All,Allow,*
+User:producer-kafka,Group,LITERAL,*,All,Allow,*
+User:consumer-kafka,Topic,LITERAL,*,All,Allow,*
